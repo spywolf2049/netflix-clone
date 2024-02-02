@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Martel:wght@700&family=Poppins:wght@700&display=swap');
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 79vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+.main .box{
+   height: 79vh;
+   width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    top: 0;
+     position: absolute;
+    
+}
+nav{
+    /* display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin:auto;
+    height: 62px; */
+
+    display: flex;
+    max-width: 150vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 10vh;
+}
+
+   
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans',sans-serif;
+   gap: 6px;
+}
+.hero> :first-child{
+    font-weight:bolder;
+    font-size: 'poppins',sans-serif;
+    font-size: 40px;
+
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight:bolder;
+    font-size: 22px;
+}
+.hero> :nth-child(3){
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+.seperation{
+    height: 11px;
+    background-color: #6b5f5f43;
+}
+.btn{
+    padding: 8px 39px;
+    font-weight: bold ;
+    color: white;
+    background-color: hsla(0, 3%, 14%, 0.33);
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ffffff6f;
+}
+
+.btn-red-sm{
+    padding: 7px 12px;
+    background-color: red;
+    color: white;
+    font-weight:bold;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+.btn-red{
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-weight:bold;
+    font-size: 24px;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+.main input{
+    padding: 20px 156px 18px 14px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid hsla(0, 6%, 87%, 0.502);
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+.secimg  img{
+    width:36vw ;
+    position: relative;
+    z-index: 10;
+}
+/* ggfgf */
+.secimg2  img{
+    width:36vw ;
+    position: relative;
+    z-index: 10;
+}
+.secimg2 video{
+    position: absolute;
+    right: 242px;
+    top: 1530px;
+    width: 350px;
+    height: 318px;
+}
+/* fff */
+.secimg{
+    position: relative;
+}
+
+.secimg video{
+    position: absolute;
+    right: 0%;
+    top: 70px;
+}
+section.first> div{
+display: flex;
+flex-direction: column;
+}
+
+
+section.first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+}
+section.first> div :nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+}
+.faq{
+    color: white;
+    background-color: black;
+    padding: 34px;
+
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+
+}
+.faqbox:hover{
+    background-color: hsla(0, 4%, 51%, 0.582);
+}
+
+.faqbox{
+    display: flex;
+    background-color: hsla(0, 4%, 51%, 0.367);
+    padding: 24px;
+    max-width: 140vh;
+    height: 35px;
+    margin: 34px auto;
+    justify-content: space-between;
+    font-size: 24px;
+    cursor: pointer;
+}
+.faqbox svg{
+    filter: invert(1);
+}
+
+
+footer{
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 14px;
+}
+
+footer .question{
+    padding: 34px 0;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a{
+    color: white;
+    font-size: 14px;
+}
